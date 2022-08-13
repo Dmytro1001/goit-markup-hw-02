@@ -9,3 +9,149 @@
 img {
     display: block;
 }
+
+body {
+    font-family: 'Roboto', sans-serif;
+
+}
+
+/* Pege header */
+.page-header {
+    background-color: ;
+}
+
+.logo-primery {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+
+    color: #000000;
+}
+
+.logo-secondary {
+    color: #2196F3;
+}
+
+.menu-nav {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+
+    color: #212121;
+}
+
+.menu-nav:hover,
+.menu-nav:focus {
+    color: #2196F3;
+}
+
+.contact-mail-address,
+.contact-phone-number {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+
+    color: #757575;
+}
+
+.contact-mail-address:hover,
+.contact-mail-address:focus,
+.contact-phone-number:hover,
+.contact-phone-number:focus {
+    color: #2196F3;
+}
+
+/* Main Content */
+
+.section-hero {
+    background: #2F303A;
+}
+
+.title-page {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.modele-open-btn {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    cursor: pointer;
+    color: #FFFFFF;
+
+}
+
+.modele-open-btn:hover,
+.modele-open-btn:focus {
+    background-color: #2196F3;
+}
+
+.section-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+
+.work-features-title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #212121;
+}
+
+.work-features-text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+
+.section-team {
+    background-color: #F5F4FA;
+}
+
+.name-title {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+
+.prof-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+
+/* Footer page */
+.footer-page {
+    background: #2F303A;
+}
+
+
+
+
