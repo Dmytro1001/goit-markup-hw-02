@@ -79,6 +79,10 @@ body {
 
 
 /* ======= Pege header ======== */
+.page-header{
+    border: 1px solid #ECECEC;
+}
+
 .page-header-container {
     /* border-bottom: #ECECEC; */
 
@@ -228,10 +232,10 @@ body {
 .work-features-items {
     display: flex;
     flex-wrap: wrap;   
-    flex-basis: calc((100%-90)/4);
+    gap: 30px;
 }
 
-.work-features-items {
+.work-features-items .work-features-item {
     width: 270px;
 }
 
@@ -319,6 +323,12 @@ margin-bottom: 10px;
     padding-bottom: 60px;
 }
 
+.footer-page-container {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
 .logo-light {
     font-family: var(--secondary-font-text);
     font-weight: 700;
@@ -328,6 +338,10 @@ margin-bottom: 10px;
     color: var(--logo-color-dark-background);
 
     margin-bottom: 20px;
+}
+
+.contacts-items .contacts-item:not(:last-child) {
+margin-bottom: 9px;
 }
 
 .contacts-item,
@@ -352,6 +366,8 @@ margin-bottom: 10px;
 .contacts-phone:focus {
     color: var(--active-color-hover-focus);
 }
+
+/* ======= / Footer page =========*/
 
 /* main portfolio content */
 
